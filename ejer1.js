@@ -1,2 +1,10 @@
-console.log("Hola Mundo")
-console.log("Leonardo")
+let n1= parseInt(prompt("Introduce tu número:"));
+let n2= parseInt(prompt("Introduce tu número:"));
+let potencia= Math.pow(n1,2);
+let suma= n1+n2;
+let resta= n1-n2;
+let multiplicacion= n1*n2;   
+let division= n1/n2;
+let modulo= n1%n2;
+console.log("La suma de los dos números es: "+suma); 
+console.log("La potencia de n1 es: "+potencia);
